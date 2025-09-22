@@ -1,12 +1,126 @@
-# React + Vite
+# binay.dev
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[binay.dev.vercel.app](https://binay-dev.vercel.app) — Personal/developer site built with React + Vite
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
 
-## Expanding the ESLint configuration
+* [About](#about)
+* [Features](#features)
+* [Tech Stack](#tech-stack)
+* [Prerequisites](#prerequisites)
+* [Installation](#installation)
+* [Development](#development)
+* [Build and Deployment](#build-and-deployment)
+* [Configuration](#configuration)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## About
+
+`binay.dev` is a web project showcasing a personal or developer website. It uses React for the UI with Vite as the build tool. The site is hosted (or deployable) on Vercel.
+
+---
+
+## Features
+
+* Fast hot module reloading (HMR) during development
+* Clean minimal setup — no unnecessary boilerplate
+* ESLint configured for code quality and consistency
+* Simple structure suited for personal portfolio or blog sites
+
+---
+
+## Tech Stack
+
+| Layer                | Technology                             |
+| -------------------- | -------------------------------------- |
+| UI                   | React                                  |
+| Build Tool           | Vite                                   |
+| Linting              | ESLint                                 |
+| Hosting / Deployment | Vercel (or any static-hosting service) |
+
+---
+
+## Prerequisites
+
+To run this project locally, you will need:
+
+* Node.js (preferably latest LTS version)
+* npm or yarn package manager
+
+---
+
+## Installation
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/481n4y4/binay.dev.git
+cd binay.dev
+npm install
+# or if using yarn
+# yarn install
+```
+
+---
+
+## Development
+
+To start the developer server with live reloading:
+
+```bash
+npm run dev
+# or
+# yarn dev
+```
+
+This will spin up a local server (by default at `http://localhost:5173`) and watch for changes.
+
+---
+
+## Build and Deployment
+
+To build the production version:
+
+```bash
+npm run build
+# or
+# yarn build
+```
+
+This produces optimized and minified static files in the `dist` folder (or as configured in Vite).
+
+You can deploy the contents of `dist` to any static hosting platform. For example, Vercel is already being used in this project.
+
+---
+
+## Configuration
+
+Some relevant config files in the project:
+
+* `vite.config.js` — Vite configuration
+* `.eslint.config.js` — ESLint rules
+* `package.json` — Dependencies and scripts
+
+You may customize these as needed (e.g. add TypeScript, change ESLint rules, etc.)
+
+---
+
+## Folder Structure
+
+Here’s a high-level overview of the main folders and files:
+
+```
+/
+├── public/               # Static assets
+├── src/                  # Source files: React components, styles, etc.
+├── index.html            # Entry HTML file
+├── package.json          # Project metadata and dependencies
+├── vite.config.js        # Vite build configuration
+├── .eslint.config.js     # Linting configuration
+└── README.md             # This file
+```
+
+---
