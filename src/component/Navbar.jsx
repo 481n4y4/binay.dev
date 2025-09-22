@@ -1,0 +1,85 @@
+import { useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
+
+function Navbar() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  return (
+    <header className="fixed top-0 w-full bg-gray-950/80 backdrop-blur-md shadow-md z-50">
+      <nav className="max-w-6xl mx-auto flex justify-between items-center px-6 py-4">
+        <h1 className="text-2xl font-bold text-indigo-400">Binay.dev</h1>
+
+        {/* Menu Desktop */}
+        <ul className="hidden md:flex gap-8 text-sm">
+          <li>
+            <a href="#hero" className="hover:text-indigo-400">
+              Home
+            </a>
+          </li>
+          <li>
+            <a href="#about" className="hover:text-indigo-400">
+              About
+            </a>
+          </li>
+          <li>
+            <a href="#skills" className="hover:text-indigo-400">
+              Skills
+            </a>
+          </li>
+          <li>
+            <a href="#projects" className="hover:text-indigo-400">
+              Projects
+            </a>
+          </li>
+          <li>
+            <a href="#contact" className="hover:text-indigo-400">
+              Contact
+            </a>
+          </li>
+        </ul>
+
+        {/* Ikon Bars untuk Mobile */}
+        <div
+          className="md:hidden text-2xl cursor-pointer"
+          onClick={() => setIsOpen(!isOpen)}
+        >
+          <FontAwesomeIcon icon={isOpen ? faTimes : faBars} />
+        </div>
+      </nav>
+
+      {/* Menu Mobile */}
+      {isOpen && (
+        <ul className="md:hidden flex flex-col items-center gap-6 py-6 bg-gray-900 text-white">
+          <li>
+            <a href="#hero" onClick={() => setIsOpen(false)}>
+              Home
+            </a>
+          </li>
+          <li>
+            <a href="#about" onClick={() => setIsOpen(false)}>
+              About
+            </a>
+          </li>
+          <li>
+            <a href="#skills" onClick={() => setIsOpen(false)}>
+              Skills
+            </a>
+          </li>
+          <li>
+            <a href="#projects" onClick={() => setIsOpen(false)}>
+              Projects
+            </a>
+          </li>
+          <li>
+            <a href="#contact" onClick={() => setIsOpen(false)}>
+              Contact
+            </a>
+          </li>
+        </ul>
+      )}
+    </header>
+  );
+}
+
+export default Navbar;
