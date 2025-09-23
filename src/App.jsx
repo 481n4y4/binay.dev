@@ -1,24 +1,15 @@
-import Hero from "./component/Hero";
-import Navbar from "./component/Navbar";
-import About from "./component/About";
-import Skills from "./component/Skills";
-import Projects from "./component/Projects";
-import Contact from "./component/Contact";
-import Footer from "./component/Footer";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./component/Home";
+import ProjectDetail from "./component/ProjectDetail";
 
 function App() {
   return (
-    <>
-      <main className="bg-gray-900 text-white min-h-screen font-sans">
-        <Navbar />
-        <Hero />
-        <About />
-        <Skills />
-        <Projects />
-        <Contact />
-        <Footer />
-      </main>
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/projects/:id" element={<ProjectDetail />} />
+      </Routes>
+    </Router>
   );
 }
 
