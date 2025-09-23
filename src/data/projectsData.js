@@ -8,28 +8,41 @@ const projects = [
     title: "Hidden Voice",
     image: hivo,
     description: `
-Hidden Voice (HiVo) adalah aplikasi web inovatif berbasis AI untuk membantu komunikasi penyandang tunawicara.
+Hidden Voice (HiVo) is an innovative AI-based web application designed to support communication for people with speech impairments.
     `,
-    feature: `Fitur:
-- Menggunakan kamera + object detection.
-- Menerjemahkan gerakan tangan ke teks.
-- Mendukung text-to-speech untuk interaksi lebih lancar.`,
+    feature: `Features:
+- Uses camera + object detection.
+- Translates hand gestures into text.
+- Supports text-to-speech for smoother interaction.`,
     repo: "https://github.com/xyleneSVG/HiVo.git",
+  },
+  {
+    id: "mindkeeper",
+    title: "MindKeeper",
+    image: mindkeeper,
+    description: `
+MindKeeper is an IoT-based solution to monitor digital distractions and improve productivity.
+    `,
+    feature: `Features:
+- Real-time monitoring.
+- Automated reminder support.
+- Suitable for time management in study/work.`,
+    repo: "https://github.com/481n4y4/MindKeeper.git",
   },
   {
     id: "karbonis",
     title: "Karbonis",
     image: karbonis,
     description: `
-Karbonis adalah sebuah aplikasi berbasis web yang membantu pengguna menghitung estimasi emisi gas rumah kaca (GRK) yang dihasilkan dari aktivitas sehari-hari seperti transportasi, penggunaan energi rumah tangga, dan pola konsumsi makanan.    `,
+Karbonis is a web application to calculate estimated greenhouse gas emissions from daily activities such as transportation, household energy, and food consumption.`,
     feature: `
-    - Menghitung emisi karbon dari:
-Transportasi (mobil, motor, kereta, bus)
-Energi rumah tangga (listrik, gas)
-Makanan (daging merah, ayam, nasi, sayuran)
-- Menampilkan total emisi bulanan dalam satuan kg CO₂e
-- Antarmuka sederhana dan edukatif
-- 100% berbasis web, tanpa login atau instalasi`,
+    - Calculates carbon emissions from:
+Transportation (car, motorcycle, train, bus)
+Household energy (electricity, gas)
+Food (red meat, chicken, rice, vegetables)
+- Displays total monthly emissions in kg CO₂e
+- Simple and educational interface
+- 100% web-based, no login or installation required`,
     repo: "https://github.com/481n4y4/karbonis",
   },
 ];
