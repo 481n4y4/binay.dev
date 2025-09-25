@@ -1,36 +1,36 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faInstagram,
+  faLinkedin,
+  faGithub,
+} from "@fortawesome/free-brands-svg-icons";
+
 function Footer() {
   return (
     <footer className="bg-[#0B0214] text-gray-300 py-6 mt-20">
-      <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4">
-        
+      <div className="max-w-6xl mx-auto px-6 text-center md:flex md:justify-between md:items-center md:text-left gap-4">
         {/* Copyright */}
         <p className="text-sm">
           © {new Date().getFullYear()} Binay.dev — All Rights Reserved
         </p>
 
-        {/* Sosial Media */}
-        <div className="flex gap-4">
-          <a 
-            href="https://github.com/username" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="hover:text-white transition"
+        <div className="flex space-x-4 mt-3 md:mt-0 justify-center">
+          <a
+            href="https://www.instagram.com/abinaya_4o4?igsh=MWMwZzRqaTNtbjkxbw=="
+            id="instagram"
+            target="_blank"
           >
-            GitHub
+            <FontAwesomeIcon icon={faInstagram} />
           </a>
-          <a 
-            href="https://linkedin.com/in/username" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="hover:text-white transition"
+          <a
+            href="https://www.linkedin.com/in/kheira-abinaya-677ba2286"
+            id="linkedin"
+            target="_blank"
           >
-            LinkedIn
+            <FontAwesomeIcon icon={faLinkedin} />
           </a>
-          <a 
-            href="mailto:youremail@gmail.com" 
-            className="hover:text-white transition"
-          >
-            Email
+          <a href="https://github.com/481n4y4" id="github" target="_blank">
+            <FontAwesomeIcon icon={faGithub} />
           </a>
         </div>
       </div>

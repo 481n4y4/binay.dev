@@ -48,61 +48,56 @@ function Contact() {
           </button>
         </form>
       </div>
-      <div className="flex justify-center flex-wrap gap-15 mt-5">
+      <div className="flex justify-center flex-wrap md:gap-15 mt-3">
         <div className="text-center p-1">
           <a
             href="https://www.instagram.com/abinaya_4o4?igsh=MWMwZzRqaTNtbjkxbw=="
             id="instagram"
             target="_blank"
-            className="text-purple-700 text-5xl"
+            className="text-purple-700 md:text-4xl"
           >
             <FontAwesomeIcon icon={faInstagram}/>
           </a>
-          <h3 className="font-bold">Instagram</h3>
         </div>
         <div className="text-center p-1">
           <a
             href="https://www.linkedin.com/in/kheira-abinaya-677ba2286"
             id="linkedin"
             target="_blank"
-            className="text-purple-700 text-5xl"
+            className="text-purple-700 md:text-4xl"
           >
             <FontAwesomeIcon icon={faLinkedin}/>
           </a>
-          <h3 className="font-bold">Linkedin</h3>
         </div>
         <div className="text-center p-1">
           <a
             href="https://github.com/481n4y4"
             id="github"
             target="_blank"
-            className="text-purple-700 text-5xl"
+            className="text-purple-700 md:text-4xl"
           >
             <FontAwesomeIcon icon={faGithub}/>
           </a>
-          <h3 className="font-bold">Github</h3>
         </div>
         <div className="text-center p-1">
           <a
             href="https://www.facebook.com/kheira.abinaya?mibextid=ZbWKwL"
             id="Facebook"
             target="_blank"
-            className="text-purple-700 text-5xl"
+            className="text-purple-700 md:text-4xl"
           >
             <FontAwesomeIcon icon={faFacebook}/>
           </a>
-          <h3 className="font-bold">Facebook</h3>
         </div>
         <div className="text-center p-1">
           <a
             href="https://wa.me/6285179902663"
             id="Whatsapp"
             target="_blank"
-            className="text-purple-700 text-5xl"
+            className="text-purple-700 md:text-4xl"
           >
             <FontAwesomeIcon icon={faWhatsapp}/>
           </a>
-          <h3 className="font-bold">Whatsapp</h3>
         </div>
       </div>
     </section>
