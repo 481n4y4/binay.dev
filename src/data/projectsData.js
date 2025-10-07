@@ -1,6 +1,7 @@
 import hivo from "../assets/img/Hivo.png";
 import mindkeeper from "../assets/img/MindKeeper.png";
 import karbonis from "../assets/img/Karbonis.png";
+import cineview from "../assets/img/cineview.png";
 
 const projects = [
   {
@@ -45,6 +46,19 @@ Food (red meat, chicken, rice, vegetables)
 - 100% web-based, no login or installation required`,
     repo: "https://github.com/481n4y4/karbonis",
   },
+  {
+    id:"cineview",
+    title:"Cineview",
+    image: cineview, 
+    description: "Cineview is a web app that lets users explore movies, give ratings, and share reviews",
+    feature: `
+    - Search movies by title/genre
+    - View movie details (poster, synopsis, rating, cast)
+    - Popular/trending movies list
+    - Filter by genre/year
+    `,
+    repo: "https://github.com/rakhaafd/cineview.git"
+  }
 ];
 
 export default projects;
