@@ -1,7 +1,7 @@
 import hivo from "../assets/img/Hivo.png";
 import mindkeeper from "../assets/img/MindKeeper.png";
 import karbonis from "../assets/img/Karbonis.png";
-import cineview from "../assets/img/cineview.png";
+import cineview from "../assets/img/Cineview.png";
 
 const projects = [
   {
