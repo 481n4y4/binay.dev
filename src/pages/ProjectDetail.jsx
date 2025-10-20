@@ -1,6 +1,6 @@
 import { useParams, Link } from "react-router-dom";
 import projects from "../data/projectsData";
-import Navbar from "./Navbar";
+import Navbar from "../component/Navbar";
 
 function ProjectDetail() {
   const { id } = useParams();
