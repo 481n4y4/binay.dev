@@ -6,7 +6,7 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 w-full bg-gray-950/80 backdrop-blur-md shadow-md z-50">
+    <header className="fixed top-0 w-full bg-gray-950 shadow-md z-50">
       <nav className="max-w-6xl mx-auto flex justify-between items-center px-6 py-4">
         <h1 className="text-2xl font-bold text-indigo-400">Binay.dev</h1>
 
@@ -25,6 +25,11 @@ function Navbar() {
           <li>
             <a href="#skills" className="hover:text-indigo-400">
               Skills
+            </a>
+          </li>
+          <li>
+            <a href="#certificate" className="hover:text-indigo-400">
+              Certificate
             </a>
           </li>
           <li>
@@ -50,7 +55,7 @@ function Navbar() {
 
       {/* Menu Mobile */}
       {isOpen && (
-        <ul className="md:hidden flex flex-col items-center gap-6 py-6 bg-gray-900 text-white">
+        <ul className="md:hidden w-60 min-h-screen flex flex-col items-end gap-6  px-8 py-6 bg-gray-900/90 text-white absolute right-0">
           <li>
             <a href="#hero" onClick={() => setIsOpen(false)}>
               Home

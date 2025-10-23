@@ -16,8 +16,8 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 import projects from "../data/projectsData";
-import  certificate  from "../data/certificate";
-import skills  from "../data/skills";
+import certificate from "../data/certificate";
+import skills from "../data/skills";
 import Navbar from "../component/Navbar";
 import Footer from "../component/Footer";
 
@@ -169,7 +169,7 @@ function Home() {
 
       {/* Certificate */}
       <section
-        id="Certificate"
+        id="certificate"
         className="max-w-6xl mx-auto px-6 py-24 rounded-3xl mx-6"
       >
         <div className="text-center mb-16">
@@ -199,7 +199,7 @@ function Home() {
               </div>
 
               <div className="p-6">
-                <h4 className="text-xl font-semibold mb-3 group-hover:text-purple-300 transition-colors line-clamp-2">
+                <h4 className="text-lg font-semibold mb-3 group-hover:text-purple-300 transition-colors line-clamp-2">
                   {project.name}
                 </h4>
                 <a
@@ -220,7 +220,10 @@ function Home() {
       </section>
 
       {/* Projects Section */}
-      <section id="projects" className="max-w-6xl mx-auto px-6 py-24">
+      <section
+        id="projects"
+        className="max-w-6xl mx-auto px-6 py-24 bg-gray-800/50 rounded-3xl mx-6"
+      >
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4 bg-gradient-to-r from-white to-purple-200 bg-clip-text text-transparent">
             Featured Projects
