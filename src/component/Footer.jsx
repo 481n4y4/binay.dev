@@ -187,18 +187,6 @@ function Footer() {
           </p>
         </div>
       </div>
-
-      {/* Scroll to Top Button - Floating */}
-      <button
-        onClick={scrollToTop}
-        className="fixed bottom-6 right-6 z-50 w-12 h-12 bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 text-white rounded-full shadow-lg border border-purple-500/30 transition-all duration-300 transform hover:-translate-y-1 hover:shadow-xl flex items-center justify-center group"
-        aria-label="Scroll to top"
-      >
-        <FontAwesomeIcon
-          icon={faArrowUp}
-          className="group-hover:-translate-y-0.5 transition-transform duration-300"
-        />
-      </button>
     </footer>
   );
 }

@@ -1,46 +1,37 @@
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 w-full bg-gray-950 shadow-md z-50">
+    <header className="fixed top-0 w-full bg-gray-950 z-50">
       <nav className="max-w-6xl mx-auto flex justify-between items-center px-6 py-4">
         <h1 className="text-2xl font-bold text-indigo-400">Binay.dev</h1>
 
         {/* Menu Desktop */}
         <ul className="hidden md:flex gap-8 text-sm">
           <li>
-            <a href="#hero" className="hover:text-indigo-400">
+            <Link to={"/"} className="hover:text-indigo-400">
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#about" className="hover:text-indigo-400">
+            <Link to={"/about"} className="hover:text-indigo-400">
               About
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#skills" className="hover:text-indigo-400">
-              Skills
-            </a>
-          </li>
-          <li>
-            <a href="#certificate" className="hover:text-indigo-400">
+            <Link to={"/certificate"} className="hover:text-indigo-400">
               Certificate
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#projects" className="hover:text-indigo-400">
+            <Link to={"/projects"} className="hover:text-indigo-400">
               Projects
-            </a>
-          </li>
-          <li>
-            <a href="#contact" className="hover:text-indigo-400">
-              Contact
-            </a>
+            </Link>
           </li>
         </ul>
 
@@ -57,29 +48,24 @@ function Navbar() {
       {isOpen && (
         <ul className="md:hidden w-60 min-h-screen flex flex-col items-end gap-6  px-8 py-6 bg-gray-900/90 text-white absolute right-0">
           <li>
-            <a href="#hero" onClick={() => setIsOpen(false)}>
+            <Link to={"/"} className="hover:text-indigo-400">
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#about" onClick={() => setIsOpen(false)}>
+            <Link to={"/about"} className="hover:text-indigo-400">
               About
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#skills" onClick={() => setIsOpen(false)}>
-              Skills
-            </a>
+            <Link to={"/certificate"} className="hover:text-indigo-400">
+              Certificate
+            </Link>
           </li>
           <li>
-            <a href="#projects" onClick={() => setIsOpen(false)}>
+            <Link to={"/projects"} className="hover:text-indigo-400">
               Projects
-            </a>
-          </li>
-          <li>
-            <a href="#contact" onClick={() => setIsOpen(false)}>
-              Contact
-            </a>
+            </Link>
           </li>
         </ul>
       )}
