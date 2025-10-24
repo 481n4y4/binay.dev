@@ -46,7 +46,7 @@ function Footer() {
     },
     {
       icon: faEnvelope,
-      href: "mailto:abinaya@example.com", // Ganti dengan email Anda
+      href: "abinayagavin16@gmail.com", // Ganti dengan email Anda
       label: "Email",
       color: "hover:text-red-400",
     },
