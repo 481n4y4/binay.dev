@@ -1,5 +1,5 @@
 import { ReactTyped } from "react-typed";
-import khei from "../assets/img/Khei.JPG";
+import khei from "../assets/img/khei.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight, faCode } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";

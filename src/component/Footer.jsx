@@ -22,7 +22,7 @@ function Footer() {
   const socialLinks = [
     {
       icon: faInstagram,
-      href: "https://www.instagram.com/abinaya_4o4?igsh=MWMwZzRqaTNtbjkxbw==",
+      href: "https://www.instagram.com/it5_binay?igsh=MWMwZzRqaTNtbjkxbw==",
       label: "Instagram",
       color: "hover:text-pink-400",
     },

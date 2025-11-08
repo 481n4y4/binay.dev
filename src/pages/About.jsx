@@ -1,7 +1,7 @@
 import Navbar from "../component/Navbar";
 import Footer from "../component/Footer";
 import skills from "../data/skills";
-import khei from "../assets/img/Khei.JPG";
+import khei from "../assets/img/khei.png";
 import Contact from "../component/Contact";
 import cv from "../assets/img/cv/myCV.jpg";
 
