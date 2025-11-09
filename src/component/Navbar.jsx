@@ -9,7 +9,7 @@ function Navbar() {
   return (
     <header className="fixed top-0 w-full bg-gray-950 z-50">
       <nav className="max-w-6xl mx-auto flex justify-between items-center px-6 py-4">
-        <h1 className="text-2xl font-bold text-indigo-400">Binay.dev</h1>
+        <h1 className="text-2xl font-bold text-indigo-400">thakei.dev</h1>
 
         {/* Menu Desktop */}
         <ul className="hidden md:flex gap-8 text-sm">

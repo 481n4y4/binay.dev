@@ -22,7 +22,7 @@ function Footer() {
   const socialLinks = [
     {
       icon: faInstagram,
-      href: "https://www.instagram.com/it5_binay?igsh=MWMwZzRqaTNtbjkxbw==",
+      href: "https://www.instagram.com/it5_thakei?igsh=MWMwZzRqaTNtbjkxbw==",
       label: "Instagram",
       color: "hover:text-pink-400",
     },
@@ -64,7 +64,7 @@ function Footer() {
           {/* Brand Section */}
           <div className="text-center md:text-left">
             <h3 className="text-2xl font-bold bg-gradient-to-r from-white to-purple-200 bg-clip-text text-transparent mb-4">
-              Binay.dev
+              thakei.dev
             </h3>
             <p className="text-gray-400 leading-relaxed max-w-md">
               Passionate about building clean, responsive web applications with
@@ -141,7 +141,7 @@ function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           {/* Copyright */}
           <div className="flex items-center space-x-2 text-sm text-gray-400">
-            <span>© {currentYear} Binay.dev</span>
+            <span>© {currentYear} thakei.dev</span>
             <span className="text-gray-600">•</span>
             <span>All Rights Reserved</span>
             <span className="text-gray-600">•</span>

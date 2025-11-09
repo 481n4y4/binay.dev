@@ -1,4 +1,4 @@
-# binay.dev
+# thakei.dev
 
 [binay.dev.vercel.app](https://binay-dev.vercel.app) — Personal/developer site built with React + Vite
 
@@ -19,7 +19,7 @@
 
 ## About
 
-`binay.dev` is a web project showcasing a personal or developer website. It uses React for the UI with Vite as the build tool. The site is hosted (or deployable) on Vercel.
+`thakei.dev` is a web project showcasing a personal or developer website. It uses React for the UI with Vite as the build tool. The site is hosted (or deployable) on Vercel.
 
 ---
 
@@ -57,8 +57,8 @@ To run this project locally, you will need:
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/481n4y4/binay.dev.git
-cd binay.dev
+git clone https://github.com/481n4y4/thakei.dev.git
+cd thakei.dev
 npm install
 # or if using yarn
 # yarn install

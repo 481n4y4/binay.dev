@@ -95,7 +95,7 @@ export default function Contact() {
               {[
                 {
                   icon: faInstagram,
-                  href: "https://www.instagram.com/it5_binay?igsh=MWMwZzRqaTNtbjkxbw==",
+                  href: "https://www.instagram.com/it5_thakei?igsh=MWMwZzRqaTNtbjkxbw==",
                   label: "Instagram",
                 },
                 {
