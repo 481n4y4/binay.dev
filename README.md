@@ -1,6 +1,6 @@
 # thakei.dev
 
-[binay.dev.vercel.app](https://binay-dev.vercel.app) — Personal/developer site built with React + Vite
+[thakei ](https://binay-dev.vercel.app) — Personal/developer site built with React + Vite
 
 ---
 
